@@ -13,6 +13,10 @@ function void sample::printB;
     $display("print B");
 endfunction : printB
 
+module sample;
 initial begin
+    sample s ;
+     $displayh("TEJA ");
      $display("TEJA begin block");
 end
+endmodule : sample
