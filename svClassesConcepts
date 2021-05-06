@@ -1,0 +1,12 @@
+Questions : 
+1) Assignments : 
+Parent class and child class pointers are initialised , 
+-> so why the chile_handle = parent_handle can be done 
+-> But not the vice versa 
+-> child class has more data than parent class , so assigning child class handle to parent class handle should result in compilation error .
+
+2) parent_handle = child_handle
+parent_handle functions can be overwriiten by child_handle using virtual declarations in parentclass functions 
+parent_handle functions cannot be overwritten by child_handle , when not declared virtual.
+
+3) Shallow copy and deep copy 
